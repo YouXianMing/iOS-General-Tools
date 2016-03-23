@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		109606771C93C8C800CCB3AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 109606761C93C8C800CCB3AD /* main.m */; };
+		1096067A1C93C8C800CCB3AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 109606791C93C8C800CCB3AD /* AppDelegate.m */; };
+		1096067D1C93C8C800CCB3AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1096067C1C93C8C800CCB3AD /* ViewController.m */; };
+		109606801C93C8C800CCB3AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1096067E1C93C8C800CCB3AD /* Main.storyboard */; };
+		109606821C93C8C800CCB3AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 109606811C93C8C800CCB3AD /* Assets.xcassets */; };
+		109606851C93C8C800CCB3AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109606831C93C8C800CCB3AD /* LaunchScreen.storyboard */; };
+		1096068D1C93C94900CCB3AD /* GZipData in Resources */ = {isa = PBXBuildFile; fileRef = 1096068C1C93C94900CCB3AD /* GZipData */; };
+		109606931C93CBC800CCB3AD /* NSData+Godzippa.m in Sources */ = {isa = PBXBuildFile; fileRef = 1096068F1C93CBC800CCB3AD /* NSData+Godzippa.m */; };
+		109606941C93CBC800CCB3AD /* NSFileManager+Godzippa.m in Sources */ = {isa = PBXBuildFile; fileRef = 109606911C93CBC800CCB3AD /* NSFileManager+Godzippa.m */; };
+		109606971C93CC4F00CCB3AD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 109606961C93CC4F00CCB3AD /* libz.tbd */; };
+		1096069A1C93CC8A00CCB3AD /* NSData+JSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = 109606991C93CC8A00CCB3AD /* NSData+JSONData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		109606721C93C8C800CCB3AD /* GZipDataCompression.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GZipDataCompression.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		109606761C93C8C800CCB3AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		109606781C93C8C800CCB3AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		109606791C93C8C800CCB3AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1096067B1C93C8C800CCB3AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1096067C1C93C8C800CCB3AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1096067F1C93C8C800CCB3AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		109606811C93C8C800CCB3AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		109606841C93C8C800CCB3AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		109606861C93C8C800CCB3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1096068C1C93C94900CCB3AD /* GZipData */ = {isa = PBXFileReference; lastKnownFileType = file; path = GZipData; sourceTree = "<group>"; };
+		1096068E1C93CBC800CCB3AD /* NSData+Godzippa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Godzippa.h"; sourceTree = "<group>"; };
+		1096068F1C93CBC800CCB3AD /* NSData+Godzippa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Godzippa.m"; sourceTree = "<group>"; };
+		109606901C93CBC800CCB3AD /* NSFileManager+Godzippa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Godzippa.h"; sourceTree = "<group>"; };
+		109606911C93CBC800CCB3AD /* NSFileManager+Godzippa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Godzippa.m"; sourceTree = "<group>"; };
+		109606921C93CBC800CCB3AD /* Godzippa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Godzippa.h; sourceTree = "<group>"; };
+		109606961C93CC4F00CCB3AD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		109606981C93CC8A00CCB3AD /* NSData+JSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JSONData.h"; sourceTree = "<group>"; };
+		109606991C93CC8A00CCB3AD /* NSData+JSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JSONData.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1096066F1C93C8C800CCB3AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109606971C93CC4F00CCB3AD /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		109606691C93C8C800CCB3AD = {
+			isa = PBXGroup;
+			children = (
+				109606741C93C8C800CCB3AD /* GZipDataCompression */,
+				109606731C93C8C800CCB3AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		109606731C93C8C800CCB3AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				109606721C93C8C800CCB3AD /* GZipDataCompression.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		109606741C93C8C800CCB3AD /* GZipDataCompression */ = {
+			isa = PBXGroup;
+			children = (
+				109606951C93CBCE00CCB3AD /* Godzippa */,
+				109606781C93C8C800CCB3AD /* AppDelegate.h */,
+				109606791C93C8C800CCB3AD /* AppDelegate.m */,
+				1096067B1C93C8C800CCB3AD /* ViewController.h */,
+				1096067C1C93C8C800CCB3AD /* ViewController.m */,
+				109606981C93CC8A00CCB3AD /* NSData+JSONData.h */,
+				109606991C93CC8A00CCB3AD /* NSData+JSONData.m */,
+				1096068C1C93C94900CCB3AD /* GZipData */,
+				1096067E1C93C8C800CCB3AD /* Main.storyboard */,
+				109606811C93C8C800CCB3AD /* Assets.xcassets */,
+				109606831C93C8C800CCB3AD /* LaunchScreen.storyboard */,
+				109606861C93C8C800CCB3AD /* Info.plist */,
+				109606751C93C8C800CCB3AD /* Supporting Files */,
+			);
+			path = GZipDataCompression;
+			sourceTree = "<group>";
+		};
+		109606751C93C8C800CCB3AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				109606761C93C8C800CCB3AD /* main.m */,
+				109606961C93CC4F00CCB3AD /* libz.tbd */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		109606951C93CBCE00CCB3AD /* Godzippa */ = {
+			isa = PBXGroup;
+			children = (
+				1096068E1C93CBC800CCB3AD /* NSData+Godzippa.h */,
+				1096068F1C93CBC800CCB3AD /* NSData+Godzippa.m */,
+				109606901C93CBC800CCB3AD /* NSFileManager+Godzippa.h */,
+				109606911C93CBC800CCB3AD /* NSFileManager+Godzippa.m */,
+				109606921C93CBC800CCB3AD /* Godzippa.h */,
+			);
+			name = Godzippa;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		109606711C93C8C800CCB3AD /* GZipDataCompression */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109606891C93C8C800CCB3AD /* Build configuration list for PBXNativeTarget "GZipDataCompression" */;
+			buildPhases = (
+				1096066E1C93C8C800CCB3AD /* Sources */,
+				1096066F1C93C8C800CCB3AD /* Frameworks */,
+				109606701C93C8C800CCB3AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GZipDataCompression;
+			productName = GZipDataCompression;
+			productReference = 109606721C93C8C800CCB3AD /* GZipDataCompression.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1096066A1C93C8C800CCB3AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YouXianMing;
+				TargetAttributes = {
+					109606711C93C8C800CCB3AD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 1096066D1C93C8C800CCB3AD /* Build configuration list for PBXProject "GZipDataCompression" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 109606691C93C8C800CCB3AD;
+			productRefGroup = 109606731C93C8C800CCB3AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				109606711C93C8C800CCB3AD /* GZipDataCompression */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		109606701C93C8C800CCB3AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1096068D1C93C94900CCB3AD /* GZipData in Resources */,
+				109606851C93C8C800CCB3AD /* LaunchScreen.storyboard in Resources */,
+				109606821C93C8C800CCB3AD /* Assets.xcassets in Resources */,
+				109606801C93C8C800CCB3AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1096066E1C93C8C800CCB3AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109606931C93CBC800CCB3AD /* NSData+Godzippa.m in Sources */,
+				1096067D1C93C8C800CCB3AD /* ViewController.m in Sources */,
+				1096069A1C93CC8A00CCB3AD /* NSData+JSONData.m in Sources */,
+				1096067A1C93C8C800CCB3AD /* AppDelegate.m in Sources */,
+				109606771C93C8C800CCB3AD /* main.m in Sources */,
+				109606941C93CBC800CCB3AD /* NSFileManager+Godzippa.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1096067E1C93C8C800CCB3AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1096067F1C93C8C800CCB3AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		109606831C93C8C800CCB3AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				109606841C93C8C800CCB3AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		109606871C93C8C800CCB3AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		109606881C93C8C800CCB3AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1096068A1C93C8C800CCB3AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GZipDataCompression/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YouXianMing.GZipDataCompression;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1096068B1C93C8C800CCB3AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GZipDataCompression/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YouXianMing.GZipDataCompression;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1096066D1C93C8C800CCB3AD /* Build configuration list for PBXProject "GZipDataCompression" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109606871C93C8C800CCB3AD /* Debug */,
+				109606881C93C8C800CCB3AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		109606891C93C8C800CCB3AD /* Build configuration list for PBXNativeTarget "GZipDataCompression" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1096068A1C93C8C800CCB3AD /* Debug */,
+				1096068B1C93C8C800CCB3AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1096066A1C93C8C800CCB3AD /* Project object */;
+}
