@@ -32,3 +32,10 @@
 * 支持扫描深度设置
 
 ![demo.gif](http://images2015.cnblogs.com/blog/607542/201512/607542-20151205063753768-1689391170.gif)
+
+
+### PlistFile
+
+> plist文件设置属性列表
+
+![demo.gif](http://images2015.cnblogs.com/blog/607542/201509/607542-20150921164344537-848105021.gif)
