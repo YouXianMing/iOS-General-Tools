@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1014D6061C99954F00A1604A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1014D6051C99954F00A1604A /* main.m */; };
+		1014D6091C99954F00A1604A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1014D6081C99954F00A1604A /* AppDelegate.m */; };
+		1014D60C1C99954F00A1604A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1014D60B1C99954F00A1604A /* ViewController.m */; };
+		1014D60F1C99954F00A1604A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1014D60D1C99954F00A1604A /* Main.storyboard */; };
+		1014D6111C99954F00A1604A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1014D6101C99954F00A1604A /* Assets.xcassets */; };
+		1014D6141C99954F00A1604A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1014D6121C99954F00A1604A /* LaunchScreen.storyboard */; };
+		1014D61D1C99956300A1604A /* FastCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1014D61C1C99956300A1604A /* FastCoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1014D6231C9998B300A1604A /* AbsEncryptingMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1014D6221C9998B300A1604A /* AbsEncryptingMode.m */; };
+		1014D62F1C999E0600A1604A /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1014D62A1C999E0600A1604A /* NSData+Base64.m */; };
+		1014D6301C999E0600A1604A /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 1014D62C1C999E0600A1604A /* NSData+CommonCrypto.m */; };
+		1014D6311C999E0600A1604A /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 1014D62E1C999E0600A1604A /* NSString+Base64.m */; };
+		1014D6361C999E6000A1604A /* AES256EncryptMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1014D6351C999E6000A1604A /* AES256EncryptMode.m */; };
+		1014D6391C99A00300A1604A /* DESEncryptMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1014D6381C99A00300A1604A /* DESEncryptMode.m */; };
+		1014D63C1C99A08B00A1604A /* CASTEncryptMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1014D63B1C99A08B00A1604A /* CASTEncryptMode.m */; };
+		108F25321C9AE90C00F11146 /* BaseValueStorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 108F25311C9AE90C00F11146 /* BaseValueStorageManager.m */; };
+		108F25361C9AE94900F11146 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 108F25351C9AE94900F11146 /* Student.m */; };
+		108F25391C9AEA4400F11146 /* SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 108F25381C9AEA4400F11146 /* SystemInfo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1014D6011C99954F00A1604A /* ValueStorageManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValueStorageManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1014D6051C99954F00A1604A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1014D6071C99954F00A1604A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1014D6081C99954F00A1604A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1014D60A1C99954F00A1604A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1014D60B1C99954F00A1604A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1014D60E1C99954F00A1604A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1014D6101C99954F00A1604A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1014D6131C99954F00A1604A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1014D6151C99954F00A1604A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1014D61B1C99956300A1604A /* FastCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastCoder.h; sourceTree = "<group>"; };
+		1014D61C1C99956300A1604A /* FastCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastCoder.m; sourceTree = "<group>"; };
+		1014D6211C9998B300A1604A /* AbsEncryptingMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbsEncryptingMode.h; sourceTree = "<group>"; };
+		1014D6221C9998B300A1604A /* AbsEncryptingMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbsEncryptingMode.m; sourceTree = "<group>"; };
+		1014D6291C999E0600A1604A /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		1014D62A1C999E0600A1604A /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		1014D62B1C999E0600A1604A /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		1014D62C1C999E0600A1604A /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		1014D62D1C999E0600A1604A /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		1014D62E1C999E0600A1604A /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		1014D6341C999E6000A1604A /* AES256EncryptMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AES256EncryptMode.h; sourceTree = "<group>"; };
+		1014D6351C999E6000A1604A /* AES256EncryptMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AES256EncryptMode.m; sourceTree = "<group>"; };
+		1014D6371C99A00300A1604A /* DESEncryptMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESEncryptMode.h; sourceTree = "<group>"; };
+		1014D6381C99A00300A1604A /* DESEncryptMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESEncryptMode.m; sourceTree = "<group>"; };
+		1014D63A1C99A08B00A1604A /* CASTEncryptMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASTEncryptMode.h; sourceTree = "<group>"; };
+		1014D63B1C99A08B00A1604A /* CASTEncryptMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CASTEncryptMode.m; sourceTree = "<group>"; };
+		108F25301C9AE90C00F11146 /* BaseValueStorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseValueStorageManager.h; sourceTree = "<group>"; };
+		108F25311C9AE90C00F11146 /* BaseValueStorageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseValueStorageManager.m; sourceTree = "<group>"; };
+		108F25341C9AE94900F11146 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		108F25351C9AE94900F11146 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		108F25371C9AEA4400F11146 /* SystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemInfo.h; sourceTree = "<group>"; };
+		108F25381C9AEA4400F11146 /* SystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1014D5FE1C99954F00A1604A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1014D5F81C99954F00A1604A = {
+			isa = PBXGroup;
+			children = (
+				1014D6031C99954F00A1604A /* ValueStorageManager */,
+				1014D6021C99954F00A1604A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1014D6021C99954F00A1604A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1014D6011C99954F00A1604A /* ValueStorageManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1014D6031C99954F00A1604A /* ValueStorageManager */ = {
+			isa = PBXGroup;
+			children = (
+				1014D6071C99954F00A1604A /* AppDelegate.h */,
+				1014D6081C99954F00A1604A /* AppDelegate.m */,
+				1014D60A1C99954F00A1604A /* ViewController.h */,
+				1014D60B1C99954F00A1604A /* ViewController.m */,
+				108F25341C9AE94900F11146 /* Student.h */,
+				108F25351C9AE94900F11146 /* Student.m */,
+				108F25371C9AEA4400F11146 /* SystemInfo.h */,
+				108F25381C9AEA4400F11146 /* SystemInfo.m */,
+				108F25331C9AE92200F11146 /* ValueStorageManager */,
+				1014D60D1C99954F00A1604A /* Main.storyboard */,
+				1014D6101C99954F00A1604A /* Assets.xcassets */,
+				1014D6121C99954F00A1604A /* LaunchScreen.storyboard */,
+				1014D6151C99954F00A1604A /* Info.plist */,
+				1014D6041C99954F00A1604A /* Supporting Files */,
+			);
+			path = ValueStorageManager;
+			sourceTree = "<group>";
+		};
+		1014D6041C99954F00A1604A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1014D6051C99954F00A1604A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1014D6271C999D1D00A1604A /* BaseValueStorageManager */ = {
+			isa = PBXGroup;
+			children = (
+				108F25301C9AE90C00F11146 /* BaseValueStorageManager.h */,
+				108F25311C9AE90C00F11146 /* BaseValueStorageManager.m */,
+			);
+			name = BaseValueStorageManager;
+			sourceTree = "<group>";
+		};
+		1014D6281C999E0600A1604A /* CommonCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				1014D6291C999E0600A1604A /* NSData+Base64.h */,
+				1014D62A1C999E0600A1604A /* NSData+Base64.m */,
+				1014D62B1C999E0600A1604A /* NSData+CommonCrypto.h */,
+				1014D62C1C999E0600A1604A /* NSData+CommonCrypto.m */,
+				1014D62D1C999E0600A1604A /* NSString+Base64.h */,
+				1014D62E1C999E0600A1604A /* NSString+Base64.m */,
+			);
+			path = CommonCrypto;
+			sourceTree = "<group>";
+		};
+		1014D6321C999E1800A1604A /* EncryptingMode */ = {
+			isa = PBXGroup;
+			children = (
+				1014D6211C9998B300A1604A /* AbsEncryptingMode.h */,
+				1014D6221C9998B300A1604A /* AbsEncryptingMode.m */,
+				1014D6341C999E6000A1604A /* AES256EncryptMode.h */,
+				1014D6351C999E6000A1604A /* AES256EncryptMode.m */,
+				1014D6371C99A00300A1604A /* DESEncryptMode.h */,
+				1014D6381C99A00300A1604A /* DESEncryptMode.m */,
+				1014D63A1C99A08B00A1604A /* CASTEncryptMode.h */,
+				1014D63B1C99A08B00A1604A /* CASTEncryptMode.m */,
+			);
+			name = EncryptingMode;
+			sourceTree = "<group>";
+		};
+		1014D6331C999E2000A1604A /* FastCoder */ = {
+			isa = PBXGroup;
+			children = (
+				1014D61B1C99956300A1604A /* FastCoder.h */,
+				1014D61C1C99956300A1604A /* FastCoder.m */,
+			);
+			name = FastCoder;
+			sourceTree = "<group>";
+		};
+		108F25331C9AE92200F11146 /* ValueStorageManager */ = {
+			isa = PBXGroup;
+			children = (
+				1014D6271C999D1D00A1604A /* BaseValueStorageManager */,
+				1014D6321C999E1800A1604A /* EncryptingMode */,
+				1014D6331C999E2000A1604A /* FastCoder */,
+				1014D6281C999E0600A1604A /* CommonCrypto */,
+			);
+			name = ValueStorageManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1014D6001C99954F00A1604A /* ValueStorageManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1014D6181C99954F00A1604A /* Build configuration list for PBXNativeTarget "ValueStorageManager" */;
+			buildPhases = (
+				1014D5FD1C99954F00A1604A /* Sources */,
+				1014D5FE1C99954F00A1604A /* Frameworks */,
+				1014D5FF1C99954F00A1604A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValueStorageManager;
+			productName = ValueStorageManager;
+			productReference = 1014D6011C99954F00A1604A /* ValueStorageManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1014D5F91C99954F00A1604A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YouXianMing;
+				TargetAttributes = {
+					1014D6001C99954F00A1604A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 1014D5FC1C99954F00A1604A /* Build configuration list for PBXProject "ValueStorageManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1014D5F81C99954F00A1604A;
+			productRefGroup = 1014D6021C99954F00A1604A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1014D6001C99954F00A1604A /* ValueStorageManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1014D5FF1C99954F00A1604A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1014D6141C99954F00A1604A /* LaunchScreen.storyboard in Resources */,
+				1014D6111C99954F00A1604A /* Assets.xcassets in Resources */,
+				1014D60F1C99954F00A1604A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1014D5FD1C99954F00A1604A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1014D60C1C99954F00A1604A /* ViewController.m in Sources */,
+				1014D6301C999E0600A1604A /* NSData+CommonCrypto.m in Sources */,
+				108F25361C9AE94900F11146 /* Student.m in Sources */,
+				1014D61D1C99956300A1604A /* FastCoder.m in Sources */,
+				108F25391C9AEA4400F11146 /* SystemInfo.m in Sources */,
+				1014D6311C999E0600A1604A /* NSString+Base64.m in Sources */,
+				108F25321C9AE90C00F11146 /* BaseValueStorageManager.m in Sources */,
+				1014D6231C9998B300A1604A /* AbsEncryptingMode.m in Sources */,
+				1014D6361C999E6000A1604A /* AES256EncryptMode.m in Sources */,
+				1014D62F1C999E0600A1604A /* NSData+Base64.m in Sources */,
+				1014D63C1C99A08B00A1604A /* CASTEncryptMode.m in Sources */,
+				1014D6391C99A00300A1604A /* DESEncryptMode.m in Sources */,
+				1014D6091C99954F00A1604A /* AppDelegate.m in Sources */,
+				1014D6061C99954F00A1604A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1014D60D1C99954F00A1604A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1014D60E1C99954F00A1604A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1014D6121C99954F00A1604A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1014D6131C99954F00A1604A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1014D6161C99954F00A1604A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1014D6171C99954F00A1604A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1014D6191C99954F00A1604A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ValueStorageManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YouXianMing.ValueStorageManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1014D61A1C99954F00A1604A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ValueStorageManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YouXianMing.ValueStorageManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1014D5FC1C99954F00A1604A /* Build configuration list for PBXProject "ValueStorageManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1014D6161C99954F00A1604A /* Debug */,
+				1014D6171C99954F00A1604A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1014D6181C99954F00A1604A /* Build configuration list for PBXNativeTarget "ValueStorageManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1014D6191C99954F00A1604A /* Debug */,
+				1014D61A1C99954F00A1604A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1014D5F91C99954F00A1604A /* Project object */;
+}
