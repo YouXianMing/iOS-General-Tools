@@ -21,3 +21,14 @@
 ### GZipDataCompression
 
 > gzip格式解压缩
+
+
+### FileManager
+
+> 扫描文件的工具类
+
+* 递归扫描文件夹系统，并以树形结构组织起来
+* 支持沙盒、bundle扫描
+* 支持扫描深度设置
+
+![demo.gif](./FileManager/说明.gif)
