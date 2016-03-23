@@ -39,3 +39,7 @@
 > plist文件设置属性列表
 
 ![demo.gif](http://images2015.cnblogs.com/blog/607542/201509/607542-20150921164344537-848105021.gif)
+
+### WeakList
+
+> NSMapTable、NSHashTable与NSPointerArray的封装
