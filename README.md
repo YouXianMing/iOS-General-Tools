@@ -1,6 +1,6 @@
 # iOS-Utilities
 
-### [CreateModel]((http://www.cnblogs.com/YouXianMing/p/4957619.html))
+### [CreateModel](http://www.cnblogs.com/YouXianMing/p/4957619.html)
 
 > 这是本人写的一个专门用来将json数据直接转换生成Model文件的工具,目的是为了让你从写Model文件的繁琐过程中解脱出来,提升效率以及减少出错的几率,工具的特点如下:
 
