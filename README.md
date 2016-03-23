@@ -31,4 +31,4 @@
 * 支持沙盒、bundle扫描
 * 支持扫描深度设置
 
-![demo.gif](./FileManager/说明.gif)
+![demo.gif](http://images2015.cnblogs.com/blog/607542/201512/607542-20151205063753768-1689391170.gif)
