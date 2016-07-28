@@ -52,3 +52,12 @@
 
 * 点击cell就能发出声音
 * 只需要给出声音编号,就可以,非常简单易用
+
+### PCM-to-MP3
+
+> 将录音转换成MP3
+
+![demo.png](http://images2015.cnblogs.com/blog/607542/201607/607542-20160728151132700-326666475.png)
+
+* 对 PCM 转 MP3 进行了简单的封装
+* 使用[https://github.com/wuqiong/mp3lame-for-iOS](https://github.com/wuqiong/mp3lame-for-iOS)生成支持64位的lame库
