@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C55E1F311FF5E4EC00F525AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C55E1F301FF5E4EC00F525AF /* AppDelegate.m */; };
+		C55E1F341FF5E4EC00F525AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C55E1F331FF5E4EC00F525AF /* ViewController.m */; };
+		C55E1F371FF5E4EC00F525AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55E1F351FF5E4EC00F525AF /* Main.storyboard */; };
+		C55E1F391FF5E4EC00F525AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C55E1F381FF5E4EC00F525AF /* Assets.xcassets */; };
+		C55E1F3C1FF5E4EC00F525AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55E1F3A1FF5E4EC00F525AF /* LaunchScreen.storyboard */; };
+		C55E1F3F1FF5E4EC00F525AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C55E1F3E1FF5E4EC00F525AF /* main.m */; };
+		C55E1F571FF5E50300F525AF /* NSDictionary+JSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = C55E1F461FF5E50300F525AF /* NSDictionary+JSONData.m */; };
+		C55E1F581FF5E50300F525AF /* NSData+JSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = C55E1F481FF5E50300F525AF /* NSData+JSONData.m */; };
+		C55E1F591FF5E50300F525AF /* NSString+JSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = C55E1F491FF5E50300F525AF /* NSString+JSONData.m */; };
+		C55E1F5A1FF5E50300F525AF /* NSArray+JSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = C55E1F4B1FF5E50300F525AF /* NSArray+JSONData.m */; };
+		C55E1F5B1FF5E50300F525AF /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = C55E1F501FF5E50300F525AF /* UIView+SetRect.m */; };
+		C55E1F5C1FF5E50300F525AF /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C55E1F531FF5E50300F525AF /* FileManager.m */; };
+		C55E1F5D1FF5E50300F525AF /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = C55E1F551FF5E50300F525AF /* File.m */; };
+		C55E1F5E1FF5E50300F525AF /* NSString+HexUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = C55E1F561FF5E50300F525AF /* NSString+HexUnicode.m */; };
+		C55E1F6A1FF5E54100F525AF /* Font Awesome 5 Free-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = C55E1F621FF5E54000F525AF /* Font Awesome 5 Free-Regular-400.otf */; };
+		C55E1F6B1FF5E54100F525AF /* WeatherAndTime.json in Resources */ = {isa = PBXBuildFile; fileRef = C55E1F631FF5E54000F525AF /* WeatherAndTime.json */; };
+		C55E1F6C1FF5E54100F525AF /* FontAwesome5FreeRegular.json in Resources */ = {isa = PBXBuildFile; fileRef = C55E1F641FF5E54000F525AF /* FontAwesome5FreeRegular.json */; };
+		C55E1F6D1FF5E54100F525AF /* FontAwesome5FreeSolid.json in Resources */ = {isa = PBXBuildFile; fileRef = C55E1F651FF5E54000F525AF /* FontAwesome5FreeSolid.json */; };
+		C55E1F6E1FF5E54100F525AF /* Weather&Time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C55E1F661FF5E54100F525AF /* Weather&Time.ttf */; };
+		C55E1F6F1FF5E54100F525AF /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = C55E1F671FF5E54100F525AF /* Font Awesome 5 Free-Solid-900.otf */; };
+		C55E1F701FF5E54100F525AF /* FontAwesome5BrandsRegular.json in Resources */ = {isa = PBXBuildFile; fileRef = C55E1F681FF5E54100F525AF /* FontAwesome5BrandsRegular.json */; };
+		C55E1F711FF5E54100F525AF /* Font Awesome 5 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = C55E1F691FF5E54100F525AF /* Font Awesome 5 Brands-Regular-400.otf */; };
+		C55E1F741FF5E57700F525AF /* GridCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C55E1F731FF5E57700F525AF /* GridCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C55E1F2C1FF5E4EC00F525AF /* IconFonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconFonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55E1F2F1FF5E4EC00F525AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C55E1F301FF5E4EC00F525AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C55E1F321FF5E4EC00F525AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C55E1F331FF5E4EC00F525AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C55E1F361FF5E4EC00F525AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C55E1F381FF5E4EC00F525AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C55E1F3B1FF5E4EC00F525AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C55E1F3D1FF5E4EC00F525AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55E1F3E1FF5E4EC00F525AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C55E1F461FF5E50300F525AF /* NSDictionary+JSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSONData.m"; sourceTree = "<group>"; };
+		C55E1F471FF5E50300F525AF /* NSArray+JSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONData.h"; sourceTree = "<group>"; };
+		C55E1F481FF5E50300F525AF /* NSData+JSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JSONData.m"; sourceTree = "<group>"; };
+		C55E1F491FF5E50300F525AF /* NSString+JSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSONData.m"; sourceTree = "<group>"; };
+		C55E1F4A1FF5E50300F525AF /* NSDictionary+JSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSONData.h"; sourceTree = "<group>"; };
+		C55E1F4B1FF5E50300F525AF /* NSArray+JSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONData.m"; sourceTree = "<group>"; };
+		C55E1F4C1FF5E50300F525AF /* NSString+JSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSONData.h"; sourceTree = "<group>"; };
+		C55E1F4D1FF5E50300F525AF /* NSData+JSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JSONData.h"; sourceTree = "<group>"; };
+		C55E1F4F1FF5E50300F525AF /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		C55E1F501FF5E50300F525AF /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
+		C55E1F511FF5E50300F525AF /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		C55E1F521FF5E50300F525AF /* NSString+HexUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HexUnicode.h"; sourceTree = "<group>"; };
+		C55E1F531FF5E50300F525AF /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
+		C55E1F541FF5E50300F525AF /* UIView+SetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetRect.h"; sourceTree = "<group>"; };
+		C55E1F551FF5E50300F525AF /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = File.m; sourceTree = "<group>"; };
+		C55E1F561FF5E50300F525AF /* NSString+HexUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HexUnicode.m"; sourceTree = "<group>"; };
+		C55E1F621FF5E54000F525AF /* Font Awesome 5 Free-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Regular-400.otf"; sourceTree = "<group>"; };
+		C55E1F631FF5E54000F525AF /* WeatherAndTime.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WeatherAndTime.json; sourceTree = "<group>"; };
+		C55E1F641FF5E54000F525AF /* FontAwesome5FreeRegular.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FontAwesome5FreeRegular.json; sourceTree = "<group>"; };
+		C55E1F651FF5E54000F525AF /* FontAwesome5FreeSolid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FontAwesome5FreeSolid.json; sourceTree = "<group>"; };
+		C55E1F661FF5E54100F525AF /* Weather&Time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Weather&Time.ttf"; sourceTree = "<group>"; };
+		C55E1F671FF5E54100F525AF /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
+		C55E1F681FF5E54100F525AF /* FontAwesome5BrandsRegular.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FontAwesome5BrandsRegular.json; sourceTree = "<group>"; };
+		C55E1F691FF5E54100F525AF /* Font Awesome 5 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Brands-Regular-400.otf"; sourceTree = "<group>"; };
+		C55E1F721FF5E57700F525AF /* GridCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCollectionViewCell.h; sourceTree = "<group>"; };
+		C55E1F731FF5E57700F525AF /* GridCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C55E1F291FF5E4EC00F525AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C55E1F231FF5E4EC00F525AF = {
+			isa = PBXGroup;
+			children = (
+				C55E1F2E1FF5E4EC00F525AF /* IconFonts */,
+				C55E1F2D1FF5E4EC00F525AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C55E1F2D1FF5E4EC00F525AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C55E1F2C1FF5E4EC00F525AF /* IconFonts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C55E1F2E1FF5E4EC00F525AF /* IconFonts */ = {
+			isa = PBXGroup;
+			children = (
+				C55E1F2F1FF5E4EC00F525AF /* AppDelegate.h */,
+				C55E1F301FF5E4EC00F525AF /* AppDelegate.m */,
+				C55E1F321FF5E4EC00F525AF /* ViewController.h */,
+				C55E1F331FF5E4EC00F525AF /* ViewController.m */,
+				C55E1F721FF5E57700F525AF /* GridCollectionViewCell.h */,
+				C55E1F731FF5E57700F525AF /* GridCollectionViewCell.m */,
+				C55E1F611FF5E53700F525AF /* fonts & json */,
+				C55E1F451FF5E50300F525AF /* JSONKit */,
+				C55E1F4E1FF5E50300F525AF /* libs */,
+				C55E1F601FF5E51900F525AF /* files */,
+			);
+			path = IconFonts;
+			sourceTree = "<group>";
+		};
+		C55E1F451FF5E50300F525AF /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				C55E1F461FF5E50300F525AF /* NSDictionary+JSONData.m */,
+				C55E1F471FF5E50300F525AF /* NSArray+JSONData.h */,
+				C55E1F481FF5E50300F525AF /* NSData+JSONData.m */,
+				C55E1F491FF5E50300F525AF /* NSString+JSONData.m */,
+				C55E1F4A1FF5E50300F525AF /* NSDictionary+JSONData.h */,
+				C55E1F4B1FF5E50300F525AF /* NSArray+JSONData.m */,
+				C55E1F4C1FF5E50300F525AF /* NSString+JSONData.h */,
+				C55E1F4D1FF5E50300F525AF /* NSData+JSONData.h */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		C55E1F4E1FF5E50300F525AF /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				C55E1F4F1FF5E50300F525AF /* FileManager.h */,
+				C55E1F501FF5E50300F525AF /* UIView+SetRect.m */,
+				C55E1F511FF5E50300F525AF /* File.h */,
+				C55E1F521FF5E50300F525AF /* NSString+HexUnicode.h */,
+				C55E1F531FF5E50300F525AF /* FileManager.m */,
+				C55E1F541FF5E50300F525AF /* UIView+SetRect.h */,
+				C55E1F551FF5E50300F525AF /* File.m */,
+				C55E1F561FF5E50300F525AF /* NSString+HexUnicode.m */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		C55E1F601FF5E51900F525AF /* files */ = {
+			isa = PBXGroup;
+			children = (
+				C55E1F351FF5E4EC00F525AF /* Main.storyboard */,
+				C55E1F381FF5E4EC00F525AF /* Assets.xcassets */,
+				C55E1F3A1FF5E4EC00F525AF /* LaunchScreen.storyboard */,
+				C55E1F3D1FF5E4EC00F525AF /* Info.plist */,
+				C55E1F3E1FF5E4EC00F525AF /* main.m */,
+			);
+			name = files;
+			sourceTree = "<group>";
+		};
+		C55E1F611FF5E53700F525AF /* fonts & json */ = {
+			isa = PBXGroup;
+			children = (
+				C55E1F661FF5E54100F525AF /* Weather&Time.ttf */,
+				C55E1F691FF5E54100F525AF /* Font Awesome 5 Brands-Regular-400.otf */,
+				C55E1F621FF5E54000F525AF /* Font Awesome 5 Free-Regular-400.otf */,
+				C55E1F671FF5E54100F525AF /* Font Awesome 5 Free-Solid-900.otf */,
+				C55E1F681FF5E54100F525AF /* FontAwesome5BrandsRegular.json */,
+				C55E1F641FF5E54000F525AF /* FontAwesome5FreeRegular.json */,
+				C55E1F651FF5E54000F525AF /* FontAwesome5FreeSolid.json */,
+				C55E1F631FF5E54000F525AF /* WeatherAndTime.json */,
+			);
+			name = "fonts & json";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C55E1F2B1FF5E4EC00F525AF /* IconFonts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55E1F421FF5E4EC00F525AF /* Build configuration list for PBXNativeTarget "IconFonts" */;
+			buildPhases = (
+				C55E1F281FF5E4EC00F525AF /* Sources */,
+				C55E1F291FF5E4EC00F525AF /* Frameworks */,
+				C55E1F2A1FF5E4EC00F525AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IconFonts;
+			productName = IconFonts;
+			productReference = C55E1F2C1FF5E4EC00F525AF /* IconFonts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C55E1F241FF5E4EC00F525AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Techcode;
+				TargetAttributes = {
+					C55E1F2B1FF5E4EC00F525AF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C55E1F271FF5E4EC00F525AF /* Build configuration list for PBXProject "IconFonts" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C55E1F231FF5E4EC00F525AF;
+			productRefGroup = C55E1F2D1FF5E4EC00F525AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55E1F2B1FF5E4EC00F525AF /* IconFonts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C55E1F2A1FF5E4EC00F525AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55E1F6F1FF5E54100F525AF /* Font Awesome 5 Free-Solid-900.otf in Resources */,
+				C55E1F3C1FF5E4EC00F525AF /* LaunchScreen.storyboard in Resources */,
+				C55E1F6E1FF5E54100F525AF /* Weather&Time.ttf in Resources */,
+				C55E1F711FF5E54100F525AF /* Font Awesome 5 Brands-Regular-400.otf in Resources */,
+				C55E1F6A1FF5E54100F525AF /* Font Awesome 5 Free-Regular-400.otf in Resources */,
+				C55E1F391FF5E4EC00F525AF /* Assets.xcassets in Resources */,
+				C55E1F6C1FF5E54100F525AF /* FontAwesome5FreeRegular.json in Resources */,
+				C55E1F6D1FF5E54100F525AF /* FontAwesome5FreeSolid.json in Resources */,
+				C55E1F371FF5E4EC00F525AF /* Main.storyboard in Resources */,
+				C55E1F6B1FF5E54100F525AF /* WeatherAndTime.json in Resources */,
+				C55E1F701FF5E54100F525AF /* FontAwesome5BrandsRegular.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C55E1F281FF5E4EC00F525AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55E1F571FF5E50300F525AF /* NSDictionary+JSONData.m in Sources */,
+				C55E1F5B1FF5E50300F525AF /* UIView+SetRect.m in Sources */,
+				C55E1F581FF5E50300F525AF /* NSData+JSONData.m in Sources */,
+				C55E1F341FF5E4EC00F525AF /* ViewController.m in Sources */,
+				C55E1F3F1FF5E4EC00F525AF /* main.m in Sources */,
+				C55E1F5D1FF5E50300F525AF /* File.m in Sources */,
+				C55E1F311FF5E4EC00F525AF /* AppDelegate.m in Sources */,
+				C55E1F5E1FF5E50300F525AF /* NSString+HexUnicode.m in Sources */,
+				C55E1F741FF5E57700F525AF /* GridCollectionViewCell.m in Sources */,
+				C55E1F591FF5E50300F525AF /* NSString+JSONData.m in Sources */,
+				C55E1F5A1FF5E50300F525AF /* NSArray+JSONData.m in Sources */,
+				C55E1F5C1FF5E50300F525AF /* FileManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C55E1F351FF5E4EC00F525AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55E1F361FF5E4EC00F525AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C55E1F3A1FF5E4EC00F525AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55E1F3B1FF5E4EC00F525AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C55E1F401FF5E4EC00F525AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C55E1F411FF5E4EC00F525AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C55E1F431FF5E4EC00F525AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HT95VAK372;
+				INFOPLIST_FILE = IconFonts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.techcode.IconFonts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C55E1F441FF5E4EC00F525AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HT95VAK372;
+				INFOPLIST_FILE = IconFonts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.techcode.IconFonts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C55E1F271FF5E4EC00F525AF /* Build configuration list for PBXProject "IconFonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55E1F401FF5E4EC00F525AF /* Debug */,
+				C55E1F411FF5E4EC00F525AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55E1F421FF5E4EC00F525AF /* Build configuration list for PBXNativeTarget "IconFonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55E1F431FF5E4EC00F525AF /* Debug */,
+				C55E1F441FF5E4EC00F525AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C55E1F241FF5E4EC00F525AF /* Project object */;
+}
